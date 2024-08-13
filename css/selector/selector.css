@@ -1,0 +1,32 @@
+body{
+    background-color: beige;
+}
+h1{
+    background-color: blue;
+}
+#head{
+color: aquamarine;
+}
+.cls{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1,h3,p{
+    background-color: brown;
+}
+h1{
+    text-align: center;
+}
+button{
+    background-color: black;
+}
+button:hover{
+    background-color: bisque;
+    color: black;
+}
+p::first-letter{
+background-color: blue;
+}
+p::first-line{
+background-color: blueviolet;
+}
+

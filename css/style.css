@@ -1,0 +1,13 @@
+div{
+    background-color: aliceblue;
+    border: 2px solid black;
+}
+h1{
+    color: antiquewhite;
+    border: 4px solid pink;
+} 
+body{
+    background-image: url(https://www.shutterstock.com/shutterstock/photos/1924127555/display_1500/stock-photo-summer-blue-sky-cloud-gradient-light-white-background-beauty-clear-cloudy-in-sunshine-calm-bright-1924127555.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    background-color: blueviolet;
+}
+header{
+    width: 100%;
+     height: 60px;
+     background-color: rgb(181, 111, 24);
+     color: white;
+     text-align: center;
+ }
+ section{
+    width: 100%;
+    height: 600px;
+ }
+ .row{
+    display: flex;
+    justify-content: space-around;
+ }
+ .col{
+    width: 150px;
+    height: 300px;
+    background-color: rgb(42, 165, 61);
+    border: 4px solid rgb(191, 36, 36);
+    margin-top: 100px;
+ }
+
+
+ @media screen and (max-width: 400px) {
+    body{
+        background-color: black;
+        color: bisque;
+    }
+ .row{
+    display: flex;
+    flex-direction: column;
+ }
+ .col{
+    width: 350px;
+    margin-left: 25px;
+ }
+}

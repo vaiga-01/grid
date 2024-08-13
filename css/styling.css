@@ -1,0 +1,14 @@
+/* div{
+    background-color: brown; */
+    border: 2px solid black;
+}
+h1{
+    background-color: aquamarine;
+}
+body{
+    background-image: url(https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?cs=srgb&dl=pexels-padrinan-255379.jpg&fm=jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+}

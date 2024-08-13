@@ -1,0 +1,15 @@
+.row{
+    background-color: aqua;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    /* start ,end,space-around,centre,space-betwwen*/
+    align-items: center;
+}
+.col{
+    width: 150px;
+    height: 200px;
+    background-color: maroon;
+    border: 4px solid white;
+}
