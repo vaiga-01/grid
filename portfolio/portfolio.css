@@ -1,154 +1,470 @@
 @import url('https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&display=swap');
 *{
-    
-    padding: 0px;
+
+    font-family: "Roboto Slab", serif;
     margin: 0px;
-    font-family: font-family: "Gupter", serif;;
-}
-h1{
-    font-family: 'Courier New', Courier, monospace;
-}
-header{
-    width: 100%;
-    height: 60px;
-    position: sticky;
-    top: 0px;
-    display: flex;
-    justify-content: space-between;
-    border: 1px solid bisque;
-
-}
-ul{
-    display: flex;
-    justify-content: space-between;
-
-}
-header ul{
-    list-style: none;
-    margin: 10px;
+    padding: opx;
+    }
+    body{
+        background-color: whitesmoke;
+        color: black;
+    }
+    header{
+        width: 100%;
+        height: 60px;
+        position: sticky;
+        top: 0px;
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid blanchedalmond;
+        z-index: 1;
     
-}
-header ul li{
-    text-decoration: none;
-    color: red;
-    font-size: small;
-
-}
-header ul li a{
-text-decoration: none;
-color: red;
-font-size: small;
-}
-li{
-    margin: 5px;
-}
-header ul li a :hover{
-cursor: pointer;
-color: red;
-}
-
-header img{
-    width: 100px;
-    height: 30px;
-    border-radius: 50%;
-    border: 5px double greenyellow;
-    padding: 5px;
-    margin: 5px 10px;
-}
-#banner{
-    width: 100%;
-    height: 500px;
+    }
+    header ul{
+        display: flex;
+        margin: 20px;
+    }
+    header ul li{
+        list-style: none;
+        margin:10px ;
     
-
-}
-#WELCOME{
-    position: absolute;
-    top: 50%;
-    left: 30%;
-    border: 8px double pink;
-    padding: 30px;
-    background-color: bisque;
-}
-.row{
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 2px;
+    }
+    header ul li a{
+        text-decoration: none;
+        color: rgb(102, 75, 35);
+        font-size: small;
+    }
+    i{
+        margin: 5px;
+    }
+    header ul li a:hover{
+        
+        text-shadow: 7px 6px 9px whitesmoke;
+    }
+    header img{
+        width:30px;
+        height:30px;
+        border-radius: 50%;
+        border: 5px double rgb(176, 107, 22);
+        padding: 5px;
+        margin: 5px 10px;
+    }
+    #banner{
+        width: 100%;
+        height: 500px;
+    }
+    #welcome{
+        position: absolute;
+        top: 50%;
+        left: 30%;
+        border: 8px double grey;
+        padding: 30px;
+        
+    }
+    .row{
+        width: 100%;
+        height: 500px;
+        display: flex;
+        justify-content: space-around;
+        align-items:center;
+    }
+    .col {
+        padding: 50px;
     
-    background-color: blanchedalmond;
+    }
+    .row .col1 p{
+        text-align: justify;
+        display: flex;
     
-}
-.col{
-    padding: 40px;
-    display: flex;
-
-}
-.row{
-    display: flex;
-    justify-content: left;
-}
-.col p{
-    text-align: justify;
-    font-size: small;
-    display: flex;
-}
-.flip-box {
-    background-color: transparent;
-    width: 300px;
-    height: 200px;
-    border: 1px solid #f1f1f1;
-    perspective: 1000px; /* Remove this if you don't want the 3D effect */
-  }
-  
-  /* This container is needed to position the front and back side */
-  .flip-box-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-  }
-  
-  /* Do an horizontal flip when you move the mouse over the flip box container */
-  .flip-box:hover .flip-box-inner {
-    transform: rotateY(180deg);
-  }
-  
-  /* Position the front and back side */
-  .flip-box-front, .flip-box-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden; /* Safari */
-    backface-visibility: hidden;
-
-  
-  /* Style the front side (fallback if image is missing) */
-  .flip-box-front {
-    background-color: #bbb;
-    color: black;
-  }
-  
-  /* Style the back side */
-  .flip-box-back {
-    background-color: dodgerblue;
-    color: white;
-    transform: rotateY(180deg);
-  }
-
- .cls{
-    border: 2px solid white;
-    padding: 20px;
-    width: 50px;
-    margin: 4px;
-    
- }
- .cls img{
+    }
+    h1{
+        text-align: center;
+        color: black;
+    }
+    .row1{
+        padding: 100px;
+        height: 100px;
+        display: flex;
+        justify-content: space-around;
+        align-items:center;
+        
+    }
+    .col1{
+        padding:50px
+    }
+    .col p{
+        text-align: justify;
+        font-size: small;
+    }
+    .col2
+    {
+        padding: 20px;
+    }
+    h4{
+        text-align: center;
+        color: blueviolet;
+        font-size: x-large;
+    }
+    .flip-box {
+        background-color: transparent;
+        width: 300px;
+        height: 200px;
+        border: 1px solid #f1f1f1;
+        perspective: 1000px; /* Remove this if you don't want the 3D effect */
+      }
+      
+      /* This container is needed to position the front and back side */
+      .flip-box-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.8s;
+        transform-style: preserve-3d;
+      }
+      
+      /* Do an horizontal flip when you move the mouse over the flip box container */
+      .flip-box:hover .flip-box-inner {
+        transform: rotateY(180deg);
+      }
+      
+      /* Position the front and back side */
+      .flip-box-front, .flip-box-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden; /* Safari */
+        backface-visibility: hidden;
+      }
+      
+      /* Style the front side (fallback if image is missing) */
+      .flip-box-front {
+        background-color: #bbb;
+        color: black;
+      }
+      
+      /* Style the back side */
+      .flip-box-back {
+        background-color: dodgerblue;
+        color: white;
+        transform: rotateY(180deg);
+      }
+      .cls{
+        padding: 10px;
+        border: 2px solid whitesmoke;
         width: 150px;
-        height: 150px;
-        justify-content: center;
- }
-  
+      }
+      h1{
+        color: red;
+      }
+      .row4{
+        display: flex;
+        align-items: center;
+      }
+    
+    table button:hover{
+        background-color: black;
+    }
+    #contact {
+        padding: 50px 20px;text-align: center;}
+        .c-row {
+            display: flex;
+            justify-content: center;}
+            table {
+                width: 100%;
+                max-width: 600px;
+                border-spacing: 0;}
+     table form {
+                display: flex;
+                    flex-direction: column;
+                    align-items: center;}
+     table input[type="text"],table input[type="email"],table textarea {
+    width: 100%;padding: 10px;margin-bottom: 20px;border: 1px solid #ccc;
+    border-radius: 5px;font-size: 16px;}
+    table textarea {
+        height: 150px;resize: vertical;}
+        table button {
+         padding: 10px 20px;
+         background-color: #333;
+         color: #fff;
+         border-radius: 5px;
+         font-size: 16px;}
+         header img{
+            width:30px;
+            height:30px;
+            border-radius: 50%;
+            border: 5px double bisque;
+            padding: 5px;
+            margin: 5px 10px;
+        }
+        #banner{
+            width: 100%;
+            height: 500px;
+        }
+        #welcome{
+            position: absolute;
+            top: 50%;
+            left: 30%;
+            border: 8px double grey;
+            padding: 30px;
+            
+        }
+        .row{
+            width: 100%;
+            height: 500px;
+            display: flex;
+            justify-content: space-around;
+            align-items:center;
+        }
+        .col {
+            padding: 50px;
+        
+        }
+        .row .col1 p{
+            text-align: justify;
+            display: flex;
+        
+        }
+        h1{
+            text-align: center;
+        }
+        .row1{
+            padding: 100px;
+            height: 100px;
+            display: flex;
+            justify-content: space-around;
+            align-items:center;
+            
+        }
+        .col1{
+            padding:50px
+        }
+        .col p{
+            text-align: justify;
+            font-size: small;
+        }
+        .col2
+        {
+            padding: 20px;
+        }
+        h4{
+            text-align: center;
+            color: blueviolet;
+            font-size: x-large;
+        }
+        .flip-box {
+            background-color: transparent;
+            width: 300px;
+            height: 200px;
+            border: 1px solid #f1f1f1;
+            perspective: 1000px; /* Remove this if you don't want the 3D effect */
+          }
+          
+          /* This container is needed to position the front and back side */
+          .flip-box-inner {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            transition: transform 0.8s;
+            transform-style: preserve-3d;
+          }
+          
+          /* Do an horizontal flip when you move the mouse over the flip box container */
+          .flip-box:hover .flip-box-inner {
+            transform: rotateY(180deg);
+          }
+          
+          /* Position the front and back side */
+          .flip-box-front, .flip-box-back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            -webkit-backface-visibility: hidden; /* Safari */
+            backface-visibility: hidden;
+          }
+          
+          /* Style the front side (fallback if image is missing) */
+          .flip-box-front {
+            background-color: #bbb;
+            color: black;
+          }
+          
+          /* Style the back side */
+          .flip-box-back {
+            background-color: dodgerblue;
+            color: white;
+            transform: rotateY(180deg);
+          }
+          .cls{
+            padding: 10px;
+            border: 2px solid whitesmoke;
+            width: 150px;
+          }
+          h1{
+            color: white;
+          }
+          .row4{
+            display: flex;
+            align-items: center;
+          }
+        
+        table button:hover{
+            background-color: black;
+        }
+        #contact {
+            padding: 50px 20px;text-align: center;}
+            .c-row {
+                display: flex;
+                justify-content: center;}
+                table {
+                    width: 100%;
+                    max-width: 600px;
+                    border-spacing: 0;}
+         table form {
+                    display: flex;
+                        flex-direction: column;
+                        align-items: center;}
+         table input[type="text"],table input[type="email"],table textarea {
+        width: 100%;padding: 10px;margin-bottom: 20px;border: 1px solid #ccc;
+        border-radius: 5px;font-size: 16px;}
+        table textarea {
+            height: 150px;resize: vertical;}
+            table button {
+             padding: 10px 20px;
+             background-color: #333;
+             color: #fff;
+             border-radius: 5px;
+             font-size: 16px;}
+             justify-content: space-around;
+             align-items:center;
+             
+         }
+         .col1{
+             padding:50px
+         }
+         .col p{
+             text-align: justify;
+             font-size: small;
+         }
+         .col2
+         {
+             padding: 20px;
+         }
+         h4{
+             text-align: center;
+             color: blueviolet;
+             font-size: x-large;
+         }
+         .flip-box {
+             background-color: transparent;
+             width: 300px;
+             height: 200px;
+             border: 1px solid #f1f1f1;
+             perspective: 1000px; /* Remove this if you don't want the 3D effect */
+           }
+           
+           /* This container is needed to position the front and back side */
+           .flip-box-inner {
+             position: relative;
+             width: 100%;
+             height: 100%;
+             text-align: center;
+             transition: transform 0.8s;
+             transform-style: preserve-3d;
+           }
+           
+           /* Do an horizontal flip when you move the mouse over the flip box container */
+           .flip-box:hover .flip-box-inner {
+             transform: rotateY(180deg);
+           }
+           
+           /* Position the front and back side */
+           .flip-box-front, .flip-box-back {
+             position: absolute;
+             width: 100%;
+             height: 100%;
+             -webkit-backface-visibility: hidden; /* Safari */
+             backface-visibility: hidden;
+           }
+           
+           /* Style the front side (fallback if image is missing) */
+           .flip-box-front {
+             background-color: #bbb;
+             color: black;
+           }
+           
+           /* Style the back side */
+           .flip-box-back {
+             background-color: dodgerblue;
+             color: white;
+             transform: rotateY(180deg);
+           }
+           .cls{
+             padding: 10px;
+             border: 2px solid whitesmoke;
+             width: 150px;
+           }
+           h1{
+             color: indianred;
+           }
+           .row4{
+             display: flex;
+             align-items: center;
+           }
+         
+         table button:hover{
+             background-color: gr;
+         }
+         #contact {
+             padding: 300px;text-align: center;}
+             .c-row {
+                 display: flex;
+                 justify-content: center;}
+                 table {
+                     width: 100%;
+                     max-width: 600px;
+                     border-spacing: 0;}
+          table form {
+                     display: flex;
+                         flex-direction: column;
+                         align-items: center;}
+          table input[type="text"],table input[type="email"],table textarea {
+         width: 100%;padding: 10px;margin-bottom: 20px;border: 1px solid #ccc;
+         border-radius: 5px;font-size: 16px;}
+         table textarea {
+             height: 150px;resize: vertical;}
+             table button {
+              padding: 10px 20px;
+              background-color: #333;
+              color: #fff;
+              border-radius: 5px;
+              font-size: 16px;}
+         
+              justify-content: center;}
+              table {
+                  width: 100%;
+                  max-width: 600px;
+                  border-spacing: 0;}
+       table form {
+                  display: flex;
+                      flex-direction: column;
+                      align-items: center;}
+       table input[type="text"],table input[type="email"],table textarea {
+      width: 100%;padding: 10px;margin-bottom: 20px;border: 1px solid #ccc;
+      border-radius: 5px;font-size: 16px;}
+      table textarea {
+          height: 150px;resize: vertical;}
+          table button {
+           padding: 10px 20px;
+           background-color: #333;
+           color: #fff;
+           border-radius: 5px;
+           font-size: 16px;}
+    
+
+
+ 
+ 
+ 
    

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="banner">
+            <img src="banner-image.jpg" alt="Book Banner">
+        </div>
+        <div class="featured-books">
+            <h2>Featured Books</h2>
+            <div class="book">
+                <img src="book1.jpg" alt="Featured Book 1">
+                <h3>Book Title 1</h3>
+                <p>$19.99</p>
+            </div>
+            <div class="book">
+                <img src="book2.jpg" alt="Featured Book 2">
+                <h3>Book Title 2</h3>
+                <p>$24.99</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="genre">
+            <h3>Fiction</h3>
+            <div class="book">
+                <img src="fiction1.jpg" alt="Fiction Book 1">
+                <h4>Fiction Book Title</h4>
+                <p>Author Name - $14.99</p>
+            </div>
+            <!-- More Fiction Books -->
+        </div>
+        <div class="genre">
+            <h3>Non-Fiction</h3>
+            <div class="book">
+                <img src="nonfiction1.jpg" alt="Non-Fiction Book 1">
+                <h4>Non-Fiction Book Title</h4>
+                <p>Author Name - $18.99</p>
+            </div>
+            <!-- More Non-Fiction Books -->
+        </div>
+        <!-- More Genres -->
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Welcome to our bookstore! We offer a wide selection of books across various genres. Our bookstore has been serving the community since [Year] and is known for its exceptional customer service and unique collection.</p>
+        <img src="store.jpg" alt="Bookstore Image">
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+        <div class="contact-info">
+            <p>Address: 123 Book Street, Booktown, BK 12345</p>
+            <p>Phone: (123) 456-7890</p>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3163.167356764544!2d-122.08175918454644!3d37.38605177982584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb5d8d1e0bdbd%3A0x2f92d30f4b953660!2sGoogleplex!5e0!3m2!1sen!2sus!4v1633821759151!5m2!1sen!2sus" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Book Gallery. All rights reserved.</p>
+    </footer>
+</body>
+</html>
